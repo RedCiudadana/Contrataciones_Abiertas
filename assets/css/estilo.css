@@ -326,7 +326,7 @@ CAMPOS BUSQUEDA
 .contenedorBusquedaInicial{
 	max-width: 600px;
 	margin: auto;
-	padding-top: 30vh;
+	padding-top: 10vh;
 	font-size:35px;
 }
 .botonBlancoFiltroBusqueda:focus,.botonBlancoFiltroBusqueda:hover{
