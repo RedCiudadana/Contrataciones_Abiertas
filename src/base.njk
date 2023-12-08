@@ -34,7 +34,7 @@
 <!-- BARRA DE NAVEGACION -->
 <nav class="navbar navbar-expand-lg  navbar-dark fixed-top  fondoColorPrimario">
    <a class="navbar-brand" href="/">
-   <img src="/static/img/logos/logoPortalEdca.svg" alt="Logo">
+   <img src="/assets/img/logos/logo_blanco.png" alt="Logo">
    </a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionPortal" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
@@ -83,88 +83,43 @@
     {% endblock %}
 
     
-       
-
-<!-- PIE DE PAGINA -->
-<footer>
-    <div class=" py-3 textoColorBlanco fondoColorGrisOscuroClaro container-fluid">
-            <div class="row logosEntidades">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                    <a href="http://www.sefin.gob.hn/" ><img class="transicion"  src="/static/img/footer/logoSefin.png" alt="Logo"></a>            
+     <!-- footer-area-start -->
+    <footer>
+        <div class="px-4 fondoColorPrimario" >
+            <div class="row align-items-center" style="justify-content:space-between; padding-top:20px">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="footer-wrapper mb-30">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="/assets/img/logos/logo_blanco.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                <a href="http://www.oncae.gob.hn/"><img class="transicion" src="/static/img/footer/logoOncae.png" alt="Logo de ONCAE"></a>
-                
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                    <a href="https://www.usaid.gov/honduras"><img class="transicion" src="/static/img/logos/usaid.png" alt="Logo de USAID"></a>
-                    
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                <a href="https://www.worldbank.org/"><img class="transicion" src="/static/img/logos/worldBank.png" alt="Logo del Banco Mundial"></a>
-                
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-9">
+                    <div class="d-flex align-items-center justify-content-end redes_footer">
+                        <a target="_blank" style="margin:0 3px" href="https://www.facebook.com/Redciudadanagt"><img src="/assets/img/footer/REDES-27.png"></a>
+                        <a target="_blank" style="margin:0 3px" href="https://twitter.com/redxguate"><img src="/assets/img/footer/REDES-28.png"></a>
+                        <a target="_blank" style="margin:0 3px" href="https://www.instagram.com/redxguate/"><img src="/assets/img/footer/REDES-29.png"></a>
+                        <!--a target="_blank" style="margin:0 3px" href="https://www.youtube.com/channel/UCQwc62j7beStZYFzwPxBEQg"><img src="/assets/img/red/REDES-30.png"></a-->
+                    </div>
                 </div>
             </div>
-        </div>  
-        <div class="container-fluid text-center text-md-left fondoColorGrisOscuro pt-5">
-            
-        <div class="row pl-5 pr-5 pb-2 pt-2">
-            <div class="col-md-3 mt-md-0 mt-3">
-                <h5 class="text-uppercase textoColorBlanco">Portal de Contrataciones Abiertas </h5>
-                <p class="textoColorGris textoAlineadoJustificado">Portal para realizar el seguimiento de los procesos de contratación y para obtener conocimientos sobre lo que ocurre con ellos en Honduras. </p>
+            <div class="row mt-40 mb-40">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <img class="w-100" src="/assets/img/footer/09.png">
+                </div>
             </div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <div class=" col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase textoColorBlanco">Información</h5>
-                <ul class="list-unstyled textoColorBlanco">
-                    <li>
-                        <a href="/acerca">Acerca</a>
-                    </li>
-                    <li>
-                        <a href="/preguntas">Preguntas Frecuentes</a>
-                    </li>
-                    <li>
-                        <a href="http://standard.open-contracting.org/latest/es/">
-                        Estándar de Datos de Contrataciones Abiertas</a>
-                    </li>
-                </ul>
-            </div>
-            <div class=" col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase textoColorBlanco">Enlaces</h5>
-                <ul class="list-unstyled textoColorBlanco">
-                    <li>
-                    <a href="http://www.oncae.gob.hn/">ONCAE</a>
-                    </li>
-                    <li>
-                    <a href="http://www.oncae.gob.hn/">SEFIN</a>
-                    </li>
-                    <li>
-                    <a href="https://sisocs.org/">SISOCS</a>
-                    </li>
-                    <li>
-                    <a href="http://www.honducompras.gob.hn/">HonduCompras</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase textoColorBlanco"></h5>
-                <ul class="list-unstyled textoColorBlanco">
-                    <li>
-                    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento 4.0 Internacional</a>.
-                    </li>
-                </ul>
-                <ul class="list-unstyled textoColorBlanco">
-                    <li>
-                        
-                    <a rel="code" href="https://github.com/portaledcahn"><i class="fab fa-github"></i> Enlace al código fuente del Portal de Contrataciones Abiertas de Honduras</a>.
-                    </li>
-                </ul>
+            <div class="footer-bottom-area pt-25 mt-45" style="border-top:none">
+                <div class="row" style="padding:20px 0">
+                    <div class="col-xl-12">
+                        <div class="copyright text-center">
+                            <p><!--i class="far fa-copyright"></i> 2020 <a href="#">Fundee.</a--> Asociación Civil Red Ciudadana</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-<!-- CIERRE DE PIE DE PAGINA -->
+    </footer>
+    <!-- footer-area-end -->
 
 <script type="text/javascript" src="/assets/plugins/intro.js-2.9.3/intro.min.js"></script>
 <script type="text/javascript" src="/assets/js/polyfill.js"></script>

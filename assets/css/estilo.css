@@ -2883,3 +2883,8 @@ line-height: 30px;
   .contenedorFiltroNumerico .contenedorFiltroBusqueda{
 	  width: 100%;
   }
+
+  .redes_footer > a > img{
+	width:60px;
+	margin-left: 5px;
+  }
